@@ -11,7 +11,7 @@ Install and load the `usethis` package and download with `use_github`:
 ```{r}
 # install.packages("usethis")
 library("usethis")
-usethis::use_github("hubchev/temp_exam", destdir = "path/to/destination")
+usethis::use_course("hubchev/temp_exam", destdir = "path/to/destination")
 ```
 
 Replace "path/to/destination" with the desired location on your system where you want to download the repo.
