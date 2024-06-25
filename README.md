@@ -6,7 +6,7 @@ This repo contains a customizable R Markdown template.
 
 ## Method 1: Using R
 
-Install and load the `usethis` package and download with `use_github`:
+Install and load the `usethis` package and download with `use_course`:
 
 ```{r}
 # install.packages("usethis")
@@ -31,6 +31,10 @@ git clone https://github.com/hubchev/temp_exam.git
 ## Method 3: Using the mouse
 
 In GitHub click the green `<> Code v` button that you find at this repo. In the context menu that opens, you find a button named `Download ZIP`. Click that and you have the a zipped copy of the repo which you can unzip and use.
+
+## Method 4: Using this link
+
+You can download the repo in zipped file using [this link](https://github.com/hubchev/temp_exam/zipball/HEAD). Now, you can unzip it into a directory of your choice.
 
 # How to Use the Template
 
