@@ -8,11 +8,11 @@ This repo contains a customizable R Markdown template.
 
 Install and load the `usethis` package and download with `use_github`:
 
-`install.packages("usethis")`
-
-`library("usethis")`
-
-`usethis::use_github("hubchev/temp_exam", destdir = "path/to/destination")`
+```{r}
+install.packages("usethis")
+library("usethis")
+usethis::use_github("hubchev/temp_exam", destdir = "path/to/destination")
+```
 
 Replace "path/to/destination" with the desired location on your system where you want to download the repo.
 
