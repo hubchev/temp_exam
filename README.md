@@ -9,7 +9,7 @@ This repo contains a customizable R Markdown template.
 Install and load the `usethis` package and download with `use_github`:
 
 ```{r}
-install.packages("usethis")
+# install.packages("usethis")
 library("usethis")
 usethis::use_github("hubchev/temp_exam", destdir = "path/to/destination")
 ```
@@ -24,7 +24,9 @@ If you have Git installed on your system, you can download this repository using
 - Navigate to the directory where you want to download the repo using the cd command (e.g., cd ~/Documents).
 - Run the following command to clone the repo: 
 
-`git clone https://github.com/hubchev/temp_exam.git`
+```{git}
+git clone https://github.com/hubchev/temp_exam.git
+``` 
 
 ## Method 3: Using the mouse
 
@@ -36,7 +38,9 @@ Once you've downloaded the repo, navigate to the directory where you downloaded 
 
 To convert the R Markdown file into a formatted document (such as a PDF or HTML), knit the exam_template.Rmd file. You can do this in RStudio by opening the file and clicking the "Knit" button, or by running the following command in the R console:
 
+```{r}
 rmarkdown::render("path/to/temp_exam.Rmd")
+```
 
 Replace "path/to/exam_template.Rmd" with the actual path to the file.
 Contribute
