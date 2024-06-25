@@ -1,0 +1,63 @@
+---
+documentclass: exam
+classoption: [final, addpoints] # comment to hide answers
+fontsize: 12pt
+output:
+  bookdown::pdf_document2:
+    toc: false
+    highlight: NULL
+    includes:
+      before_body: "cover.tex"
+      in_header: "preamble.tex"
+bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
+csl: "/home/sthu/Dropbox/LIT/apa.csl"
+---
+  
+# Exam: Exam Title (SS 202?) {-}
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height = 4, fig.width = 4, fig.align = 'center', fig.pos='H',  tab.pos='H', tab.align = 'center')
+```
+
+\BQ
+
+\question[5] **Header** 
+
+Text
+
+\BS
+Solution
+\ES
+
+\question[12] **Header** 
+
+Text
+
+\BS
+Solution
+\ES
+
+\clearpage
+
+\question **The programming language R**
+
+\BP
+
+\part[1]{} Text
+
+\BS
+Solution
+\ES
+
+\part[2]{} Text
+
+\BS
+Solution
+\ES
+
+\EP
+
+\EQ
+
+# References
